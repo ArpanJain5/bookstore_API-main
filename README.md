@@ -122,7 +122,7 @@ Error response(HTTP status code 500)
 **Request:** Body should contain JSON data with updated book details.
 ```.json
 {
-  "title": "Percy Jackson: The Lightning Thief",
+  "title": "Percy Jackson: The Sea of Monsters",
   "author": "Rick Riordan",
   "ISBN": "123-4567890123",
   "price": 5000,
@@ -142,7 +142,7 @@ Error response(HTTP status code 500)
 Successful Response(HTTP response 200)
 ```.json
 {
-  "title": "Percy Jackson: The Lightning Thief",
+  "title": "Percy Jackson: The Sea of Monsters",
   "author": "Rick Riordan",
   "ISBN": "123-4567890123",
   "price": 5000,
