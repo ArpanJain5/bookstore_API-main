@@ -177,7 +177,14 @@ Error response(HTTP status code 500)
 Successful response (HTTP status code 200)
 ```.json
 {
-  "message": "Book deleted successfully"
+  "message": "Book deleted successfully",
+ "book": {
+    "title": "Percy Jackson: The Sea of Monsters",
+    "author": "Rick Riordan",
+    "ISBN": "123-4567890123",
+    "price": 5000,
+    "quantity": 7
+  }
 }
 ```
 
